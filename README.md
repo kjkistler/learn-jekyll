@@ -41,3 +41,21 @@ Create a Jekyll site called *my_first_jekyll_site*:
 ```
 jekyll new my_first_jekyll_site
 ```
+
+This creates a default Jekyll site.
+
+Go into the project directory:
+
+```
+cd my_first_jekyll_site
+```
+
+"serve" your site locally:
+
+```
+bundle exec jekyll serve
+```
+
+> **Note:** `bundle exec` is only necessary the first time you serve a Jekyll site. All subsequent local serving commands require only `jekyll serve`.
+
+Open a web browser and enter the URL `localhost:4000`.
