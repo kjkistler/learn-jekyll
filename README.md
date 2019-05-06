@@ -1,5 +1,7 @@
 # learn-jekyll
 
+## Install Ruby and Jekyll
+
 Jekyll is written in the Ruby programming language. 
 
 Your computer must understand Ruby if you want to use Jekyll.
@@ -30,4 +32,12 @@ Ensure that Jekyll was installed:
 
 ```
 jekyll -v
+```
+
+## Create a Jekyll Project
+
+Create a Jekyll site called *my_first_jekyll_site*:
+
+```
+jekyll new my_first_jekyll_site
 ```
