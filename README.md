@@ -14,8 +14,20 @@ Run your Windows command prompt and ensure that Ruby was installed:
 ruby -v
 ```
 
-Then ensure that RubyGems was installed:
+Ensure that RubyGems was installed:
 
 ```
 gem -v
+```
+
+Install Jekyll:
+
+```
+gem install jekyll bundler
+```
+
+Ensure that Jekyll was installed:
+
+```
+jekyll -v
 ```
