@@ -67,3 +67,21 @@ In Windows Explorer, go into `C:\Users\Kistlers\my_first_jekyll_site/_posts` and
 After you save the file, refresh your browser, and you'll see the update.
 
 Add another .markdown file to the *_posts* directory, with the necessary front matter and a little bit of test content. After saving the file, refresh your browser, and the new page will be available. 
+
+## Themes
+
+Go to https://rubygems.org/.
+
+Search for `jekyll-theme`.
+
+Click a theme link.
+Click *LINKS: Homepage*. This takes you to a GitHub repo.
+In the README, click the preview link.
+When you see one you like, copy the theme name (usually in a code block in the README), open your site's Gemfile file, and add it after the default `minima` theme.
+Save the Gemfile file.
+Stop your server.
+Enter `bundle install` in the Command Prompt.
+Change the theme in the *_config.yml* file. (Save the file.)
+Restart the server.
+Refresh the site.
+Behold the blank screen. (The new theme probably uses different layouts than minima does, so each page's front matter is throwing errors at build time.
