@@ -66,7 +66,7 @@ In Windows Explorer, go into `C:\Users\Kistlers\my_first_jekyll_site\_posts` and
 
 After you save the file, refresh your browser, and you'll see the update.
 
-Add another .markdown file to the *_posts* directory, with the necessary front matter and a little bit of test content. After saving the file, refresh your browser, and the new page will be available. 
+Add another .markdown file to the *_posts* directory (Use *Git Bash Here* and then `touch filename.md`.), with the necessary front matter and a little bit of test content. After saving the file, refresh your browser, and the new page will be available. 
 
 ## Themes
 
