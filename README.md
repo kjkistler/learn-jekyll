@@ -56,13 +56,13 @@ cd my_first_jekyll_site
 bundle exec jekyll serve
 ```
 
-> **Note:** `bundle exec` is only necessary the first time you serve a Jekyll site. All subsequent local serving commands require only `jekyll serve`.
+> **Note:** `bundle exec` is not always necessary. Sometimes you can just use only `jekyll serve`.
 
 Open a web browser and enter the URL `localhost:4000`.
 
 Keep the server running.
 
-In Windows Explorer, go into `C:\Users\Kistlers\my_first_jekyll_site/_posts` and make a simple edit to the **YYYY-DD-MM-welcome-to-jekyll.markdown** file.
+In Windows Explorer, go into `C:\Users\Kistlers\my_first_jekyll_site\_posts` and make a simple edit to the **YYYY-DD-MM-welcome-to-jekyll.markdown** file.
 
 After you save the file, refresh your browser, and you'll see the update.
 
