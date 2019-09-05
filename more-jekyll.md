@@ -16,10 +16,10 @@ CREATE PROJECT
 	- _config.yml (settings for the site)
 	- .gitignore
 	- 404.html
-	- about.md
+	- about.markdown
 	- Gemfile (stores all the site's RubyGem dependencies)
 	- Gemfile.lock
-	- index.md
+	- index.markdown
 
 
 BUILD AND SERVE
