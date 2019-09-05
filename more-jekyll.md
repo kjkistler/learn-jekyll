@@ -49,13 +49,14 @@ FRONT MATTER
 
 1. Open up default blog post source file. The front matter is in YAML (can be JSON):
 
+```
 ---
 layout: post
 title: "Welcome To Jekyll!"
 date: 2019-mm-dd hh:mm:ss -0000
 categories: jekyll update
 ---
-
+```
 
 WRITE A POST
 
