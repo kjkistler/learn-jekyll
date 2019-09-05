@@ -107,3 +107,56 @@ layout: "page"
 
 PERMALINKS
 
+You can set permalinks to essentially hard-code the URL path to a given file, so it doesn't change when you reorganize your site.
+
+In front matter for a post, you can set the permalink property to a string:
+
+---
+permalink: "/my-new-url/"
+---
+
+This would make the URL to that page be `http://localhost:4000/my-new-url/`.
+
+You can also use variables in the permalink property:
+
+---
+categories: jekyll new-cat
+permalink: /:categories
+---
+
+This would make the URL to the page be `http://localhost:4000/jekyll/new-cat/`.
+
+You could also so something like this:
+
+---
+title: "My Latest Post"
+date: 2019-09-03 15:58:34 -0700
+permalink: /:year/:title.html
+---
+
+This would make the URL to the page be `http://localhost:4000/2019/my-latest-post.html`.
+
+
+FRONT MATTER DEFAULTS
+
+When you create a new post file, it's not given the post layout by default. You have to add front matter to the file to do that. The same is true for any other front matter values that are needed for most or all of your new files.
+
+Define front matter defaults in the \_config.yml file:
+
+1. Open the \_config.yml file.
+1. Scroll down to right before the `# Exclude from processing.` comment.
+1. Add the following:
+
+```
+defaults:
+  -
+    scope:
+      path: ""  # Which directory's files this default will apply to; an empty string means all
+      type: "posts"  # Files in the _posts directory
+    values:
+        layout: "post"  # The default layout for all new files will be "post"
+```
+
+1. Save changes to the file.
+1. Restart your Jekyll server after making changes to the \_config.yml file.
+1. To override the default, set the front matter override in the file that needs it.
