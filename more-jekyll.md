@@ -171,3 +171,28 @@ defaults:
 1. Save changes to the file.
 1. Restart your Jekyll server after making changes to the \_config.yml file.
 1. To override the default, set the front matter override in the file that needs it.
+
+THEMES
+
+For theme instructions, go into \_config.yml. That will point you to Gemfile.
+
+LAYOUTS
+
+So themes have one or more layouts. Layouts are HTML skeletons for the visual structure of a page.
+
+1. In project directory, create directory called \_layouts.
+1. In \_layouts directory, create file called _custom.html_.
+1. In _custom.html_ file, add:
+
+```
+<h1>Custom Layout</h1>
+<hr>
+
+{{ content }}
+
+<h2>End of Custom Layout</h2>
+```
+
+Every source file that has `layout: custom` in its front matter will use the HTML above around its content.
+
+You can use YAML front matter in a layout file to use another layout file. This can make levels of structure in your site.
