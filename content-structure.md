@@ -9,7 +9,7 @@ Content structure refers to the **order** and **organization** of conceptual, pr
 
 A good way to visually understand order and organization is to look at a standard table of contents for a technical book -- the vertical orientation is the order, and the horizontal orientation (i.e., indented topics below other topics) is the organization:
 
-<img src="images/book-toc.PNG" style="border-style: solid; border-width: 1px;">
+<img src="book-toc.PNG" style="border-style: solid; border-width: 1px;">
 
 Content structure design principles apply to **all levels of content**:
 
@@ -21,7 +21,7 @@ Content structure design principles apply to **all levels of content**:
  
 To illustrate, a single webpage document, such as the Amazon Fire TV [Developer Tool Options page](https://developer.amazon.com/docs/fire-tv/system-xray-developer-tools.html) has its own contents list, which communicates both page-level order and organization:
 
-<img src="images/amazon-page.PNG">
+<img src="amazon-page.PNG">
 
 <p style="font-size:10px">As you may have noticed, this Tutti page itself also has its own contents list.</p>
 
@@ -126,11 +126,11 @@ Identify each discrete information chunk that you need on your page, then order 
 
 It might be useful to think of nested containers of information on a page. For example, conceptual information would be ordered and organized as nested information containers like the following:
 
-<img src="images/concept-containers.PNG">
+<img src="concept-containers.PNG">
 
 And procedural information would be ordered and organized as nested information containers like the following:
 
-<img src="images/procedure-containers.PNG">
+<img src="procedure-containers.PNG">
 
 In a document structure, the best way to accomplish this information nesting is by properly using **headings**.
 
