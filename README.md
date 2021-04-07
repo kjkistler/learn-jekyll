@@ -74,14 +74,14 @@ Go to https://rubygems.org/.
 
 Search for `jekyll-theme`.
 
-Click a theme link.
-Click *LINKS: Homepage*. This takes you to a GitHub repo.
-In the README, click the preview link.
-When you see one you like, copy the theme name (usually in a code block in the README), open your site's Gemfile file, and add it after the default `minima` theme.
-Save the Gemfile file.
-Stop your server.
-Enter `bundle install` in the Command Prompt.
-Change the theme in the *_config.yml* file. (Save the file.)
-Restart the server.
-Refresh the site.
-Behold the blank screen. (The new theme probably uses different layouts than minima does, so each page's front matter is throwing errors at build time.
+1. Click a theme link.
+1. Click *LINKS: Homepage*. This takes you to a GitHub repo.
+1. In the README, click the preview link.
+1. When you see one you like, copy the theme name (usually in a code block in the README), open your site's Gemfile file, and add it after the default `minima` theme.
+1. Save the Gemfile file.
+1. Stop your server.
+1. Enter `bundle install` in the Command Prompt.
+1. Change the theme in the *_config.yml* file. (Save the file.)
+1. Restart the server.
+1. Refresh the site.
+1. Behold the blank screen. (The new theme probably uses different layouts than minima does, so each page's front matter is throwing errors at build time.
