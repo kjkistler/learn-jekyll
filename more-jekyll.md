@@ -11,7 +11,7 @@ INSTALL EVERYTHING
 CREATE PROJECT
 
 1. Create Jekyll project: `jekyll new my-jekyll-project`. (Creates it in the current directory?)
-2. `cd my-jekyll-project` and 'ls -a`:
+2. `cd my-jekyll-project` and `ls -a`:
 	- \_posts (directory)
 	- \_config.yml (settings for the site)
 	- .gitignore
